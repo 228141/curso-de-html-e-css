@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos HTML5</title>
+</head>
+<body>
+    <h1>Formartos de Vídeos.</h1>
+    <p>inserindo vídeos hospedados localmente. Para inserir um vídeo em nosso site, podemos utilizar a nova tag 'video' da HTML5, caso o arquivo esteja hospedado no nosso próprio servidor.</p>
+    <ol>
+        <li>Usar a tag <b>'video'</b>, pode custar um consumo de banda para o cliente muito grande, abaixo estamos apresentando uma base para inserir o vídeo desta forma. E o cliente deve estar ciente desta informação. </li>
+    </ol>
+    <p>Modo Simples</p>
+    <video src="videos/meus-videos-hd_1920_1080_24fps.mp4" width="560" controls></video>
+    <p>Modo para diversos navegadores diferentes.</p>
+    <video width="560" controls>
+        <source src="videos/meus-videos-hd_1920_1080_24fps.mp4" type="video/mp4">
+        <source src="videos/meus-videos-uhd_3840_2160_24fps.mp4" type="video/mp4">
+    </video>
+
+    <p>Inserindo videos do YouTube.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/r9buAwVBDhA?si=3T3XAAcjTf4rn7v_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
