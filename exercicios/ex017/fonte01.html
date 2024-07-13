@@ -8,18 +8,30 @@
         body {
             font-family: 'Times New Roman', Times, serif;
             font-size: 1em;
+
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc - como cm (centímetros), mm (milimetro) in (polegadas), pt (pontos), pc (paicas), px (pixels), etc. Para tamanhos de fonte a serem exibidos na tela, o W3C recomenda o uso do px ou do em.
+
+            Medidas Rrelativas
+            em, ex, rem, vw, vh, %
+            16 px geralmente = 1 em
+            */
+
         }
-        /* Medidas Absolutas
-        cm, mm, in, px, pt, pc - como cm (centímetros), mm (milimetro) in (polegadas), pt (pontos), pc (paicas), px (pixels), etc. Para tamanhos de fonte a serem exibidos na tela, o W3C recomenda o uso do px ou do em.
 
-        Medidas Rrelativas
-        em, ex, rem, vw, vh, %
-        16 px geralmente = 1 em
-        */
-        
+        h1 {
+            /* shorthand font => é realizado as 04 configurações de fontes conforme exemplo abaixo, ao invés de usar as quatro configurações separadas: 
+            font-style -> font-weight -> font-size -> font-family */
 
-        h1, h2 {
-            font-family: Arial, Helvetica, sans-serif;
+            font: italic bolder 3em arial;
+            text-decoration: underline;
+            /* font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            text-decoration: underline;
+            ligther, normal, bold. bolder*/
+
         }
     </style>
 </head>
