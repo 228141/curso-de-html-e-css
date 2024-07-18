@@ -14,14 +14,16 @@
             background-color: white;
             padding: 10px;
             margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.315);
         }
         h1 {
-            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.493);
+            /*box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.493); */
         }
         nav {
             background-color: rgb(110, 110, 110);
             padding: 3px;
-            box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.447);
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.315);
         }
         nav > a {
             text-decoration: none;
@@ -33,10 +35,14 @@
             background-color: white;
             padding: 10px;
             margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.315);
         }
         article {
             background-color: lightgray;
             padding: 5px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.315);
         }
         article > aside {
             background-color: rgb(129, 129, 129);
@@ -52,6 +58,16 @@
         footer > p {
             margin: 0px;
         }
+
+        div#bola { /* exemplo para fazer uma bola com CSS
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%; 
+            */
+        }
+
     </style>
 </head>
 <body>
@@ -88,5 +104,6 @@
     <footer>
         <p>Desenvolvido por Geek Sites</p>
     </footer>
+    <div id="bola"></div>
 </body>
 </html>
