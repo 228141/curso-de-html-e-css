@@ -5,20 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Caixas</title>
     <style>
-        h1 {
+        h1 { /*box-level*/ 
+
+            /* display: block => vem como padrão e ocupa a linha inteira, e se quiser passar para inline, e não pode ser inserido altura e lagura*/
             background-color: cadetblue;
             height: 300px;
             width: 300px;
+            
+            /*
             border-width: 10px;
             border-style: solid;
-            border-color: brown;
+            border-color: brown; 
+            pode ser usado a short-rand exemplo: 
+            */
+            border: 10px soid brown;
+
+            /*
             padding-top: 10px;
             padding-right: 10px;
             padding-bottom: 10px;
             padding-left: 10px;
+            pode ser usado a short-rand exemplo:*/ padding: 10px;
+
+            /*
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            pode ser usado a short-rand exemplo:
+            */
+            margin: 10px;
+
+            /* margin: auto; /*para deixar a caixa no meio da tela */
+
+            /*
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: chartreuse;
+            */
+            outline: 5px dashed chartreuse;
         }
 
-        a {
+        a { /* inline-level*/
             border-width: 10px;
             border-style: solid;
             border-color: brown;
@@ -63,6 +91,6 @@
         </p>
     </ul>    
     <h1>Exemplo de caixa box-level</h1>
-    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links sçao exemplos de inline-level</a>, vamos ver como tudo isso funciona.</p>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de inline-level</a>, vamos ver como tudo isso funciona.</p>
 </body>
 </html>
